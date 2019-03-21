@@ -3,10 +3,6 @@
 import Vue from 'vue'
 import App from './App'
 
-
-
-
-
 // Vue.prototype.$http = Axios
 Vue.config.productionTip = false
 

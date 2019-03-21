@@ -2,12 +2,14 @@
   <div id="app">
     <!-- <router-view/> -->
     <Header/>
-    <!-- <PostList/> -->
+    <PostList/>
   </div>
 </template>
 
+
 <script>
 import Header from "./components/Header";
+
 export default {
   name: "App",
   components: {
@@ -23,8 +25,10 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-ul,
-li {
+*::before, *::after{
+    box-sizing: border-box;
+}
+ul, li {
   list-style-type: none;
 }
 a {

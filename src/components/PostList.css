@@ -1,0 +1,150 @@
+/* body */
+
+/* PostList*/
+
+.PostList {
+    /* margin-top: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    min-width: 600px;
+    min-height: 100vh; */
+    /* display: flex; */
+    background: #e1e1e1;
+    padding-top: 15px;
+}
+
+.PostList>.main {
+    margin-left: 250px;
+    margin-right: 250px;
+    min-width: 600px;
+    min-height: 100vh;
+    border-radius: 3px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+/* .PostList>.aside {
+    width: 365px;
+    margin-left: 20px;
+    align-self: flex-start;
+} */
+
+/* main*/
+
+.main>.mainItems {
+    background: #f6f6f6;
+}
+
+.main>.mainItems>ul {
+    display: flex;
+    height: 42px;
+    width: 380px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main>.mainItems>ul>li {
+    border-radius: 5px;
+    font-size: 15px;
+    color: #80bd01;
+}
+.main>.mainItems>ul>li:hover{
+    border-radius: 5px;
+    font-size: 15px;
+    color: #005580;
+    cursor: pointer;
+}
+
+
+/* mainContent */
+
+.mainContent {
+    background: #ffffff;
+}
+
+.mainContent>ul>li {
+    padding: 0 10px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+
+.mainContent>ul>li:not(:last-child) {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mainContent>ul>li>.portrait>img {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.mainContent>ul>li>.amounts {
+    width: 78px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent>ul>li>.amounts>.reply_amounts {
+    display: inline-block;
+    color: #9e78c0;
+}
+
+.mainContent>ul>li>.amounts>.visit_amounts {
+    color: #b4b4b4;
+    display: inline-block;
+}
+
+.mainContent>ul>li>.topStyle, .essenceStyle {
+    width: 32px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #80bd01;
+}
+
+.mainContent>ul>li>.questionStyle {
+    width: 32px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #e5e5e5;
+    color: #999;
+}
+
+.mainContent>ul>li>a {
+    flex-grow: 1;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 5px;
+    color: black;
+}
+
+.mainContent>ul>li .title {
+    overflow: hidden;
+    text-overflow: ellipsis-word;
+    white-space: nowrap;
+}
+
+.mainContent>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.mainContent>ul>li>.replyRencently {
+    width: 78px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.mainContent>ul>li>.replyRencently>.replyRecently_replier {
+    border-radius: 2px;
+    width: 18px;
+    height: 18px;
+}
+
+.mainContent>ul>li>.replyRencently>.replyRecently_time {
+    font-size: 10px;
+    color: #778087;
+}

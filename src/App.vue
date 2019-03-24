@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-    <!-- <router-view/> -->
-    <Header/>
-    <PostList/>
+    <Header></Header>
+      <router-view name= "main"></router-view>
   </div>
 </template>
 
 
 <script>
-import Header from "./components/Header";
+import Header from "./components/Header"
 
 export default {
   name: "App",
@@ -25,10 +24,11 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-*::before, *::after{
-    box-sizing: border-box;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-ul, li {
+ul{
   list-style-type: none;
 }
 a {

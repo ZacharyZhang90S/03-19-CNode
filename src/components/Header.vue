@@ -59,8 +59,8 @@ export default {
   background: #444444;
 }
 .wrapper {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 .header .log {
   float: left;
@@ -84,6 +84,7 @@ export default {
   position: absolute;
   left: 5px;
   height: 18px;
+  fill: #444444;
 }
 .header .searchBox input[type="text"] {
   width: 233px;

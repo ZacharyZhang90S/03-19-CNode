@@ -1,0 +1,59 @@
+/* .slideBar */
+
+.slideBar {
+    float: right;
+    width: 380px;
+    margin-top: 16px;
+    margin-right: 190px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+/* .slideBar .authorInfo */
+
+
+/* .slideBar .authorInfo   .authorInfo_topbar */
+
+.slideBar .authorInfo .authorInfo_topbar, .recentTopics_topbar, .authorReplies_topbar {
+    background: #f6f6f6;
+    padding: 8px;
+}
+
+.authorInfo_content, .recentTopics_content, .authorReplies_content {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.authorInfo_content .portrait img {
+    height: 48px;
+    width: 48px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.authorInfo_content .author {
+    font-size: 15px;
+    color: #778087;
+}
+
+.recentTopics_topbar {
+    background: #f6f6f6;
+    padding: 8px;
+}
+
+/* .slideBar .recentTopics  .recentTopics_content*/
+
+.recentTopics, .authorReplies {
+    margin-top: 15px;
+}
+.recentTopics_content li, .authorReplies_content li{
+    padding: 5px;
+        font-size: 15px;
+    color: #778087;
+}
+
+/* .slideBar .authorReplies   .recentTopics_topbar*/
+
+/* .slideBar .authorReplies   .recentTopics_content*/

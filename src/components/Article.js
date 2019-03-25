@@ -19,5 +19,11 @@ export default {
     beforeMount() {
         this.isLoading = true;
         this.getArticalData()
+    },
+    watch:{
+        '$route'(to,from){
+            this.isLoading = true;
+            this.getArticalData()
+        }
     }
 };

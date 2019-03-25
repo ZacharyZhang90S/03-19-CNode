@@ -1,10 +1,10 @@
 
 @import url("../assets/github-markdown.css");
-.markdown-body img {
-    width: 92% !important;
-  }
-  .markdown-body {
+  .postContent{
     border-top: 1px solid #e5e5e5;
+    padding: 10px 20px 0px 20px;
+  }
+  .reply_content{
     padding: 10px 20px 0px 20px;
   }
 .article {
@@ -15,10 +15,9 @@
 /*.article .main */
 
 .article .main {
-    margin-left: 250px;
-    margin-right: 250px;
-    min-width: 600px;
-    min-height: 100vh;
+    margin-left: 200px;
+    /* margin-right: 250px; */
+    width: 1100px;
     border-radius: 3px;
     background: #ffffff;
 }
@@ -90,8 +89,9 @@
 
   #reply {
     margin-top: 15px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 200px;
+    width: 1100px;
+    /* margin-right: 250px; */
   }
 
   #reply img {

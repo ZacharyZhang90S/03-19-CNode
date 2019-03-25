@@ -22,7 +22,7 @@
           </ul>
         </div>
       </div>
-      <div v-html="post.content" class="markdown-body"></div>
+      <div v-html="post.content" class="markdown-body postContent"></div>
     </div>
       
  <div id="reply">
@@ -54,7 +54,7 @@
           <span v-else>
         </span>
         </div>
-      <p v-html="reply.content" class="markdown-body"></p>
+      <p v-html="reply.content" class="markdown-body reply_content"></p>
       </div>
     </div>
   

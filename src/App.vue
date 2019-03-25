@@ -1,13 +1,14 @@
 <template>
-  <div id="app">
+  <div id="app" class="clearfix">
     <Header></Header>
-      <router-view name= "main"></router-view>
+    <router-view name="slidebar"></router-view>
+    <router-view name="main"></router-view>
   </div>
 </template>
 
 
 <script>
-import Header from "./components/Header"
+import Header from "./components/Header";
 
 export default {
   name: "App",
@@ -28,7 +29,7 @@ export default {
 *::after {
   box-sizing: border-box;
 }
-ul{
+ul {
   list-style-type: none;
 }
 a {

@@ -5,6 +5,7 @@ import Article from '../components/Article.vue'
 import SlideBar from '../components/SlideBar.vue'
 import UserInfo from '../components/UserInfo.vue'
 
+
 Vue.use(Router)
 
 export default new Router({

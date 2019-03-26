@@ -3,6 +3,7 @@
     <Header></Header>
     <router-view name="slidebar"></router-view>
     <router-view name="main"></router-view>
+    <router-view name="pagination"></router-view>
   </div>
 </template>
 

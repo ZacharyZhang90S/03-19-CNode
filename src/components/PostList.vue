@@ -47,6 +47,10 @@
               <span class="replyRecently_time">{{post.last_reply_at | formatDate}}</span>
             </span>
           </li>
+                  <li>
+          <!--分页-->
+          <pagination @handleList="renderList"></pagination>
+        </li>
         </ul>
       </div>
     </div>

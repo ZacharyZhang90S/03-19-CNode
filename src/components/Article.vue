@@ -57,8 +57,6 @@
       <p v-html="reply.content" class="markdown-body reply_content"></p>
       </div>
     </div>
-  
-
   </div>
 </template>
 <script src="./Article.js"></script>
